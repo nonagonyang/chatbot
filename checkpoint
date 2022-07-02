@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/yangliu/Documents/SB_2022/chatbot/model.tflearn"
+all_model_checkpoint_paths: "/Users/yangliu/Documents/SB_2022/chatbot/model.tflearn"

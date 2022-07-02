@@ -1,0 +1,149 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Whats up",
+        "good morning",
+        "morning",
+        "good day",
+        "good afternoon",
+        "good evening",
+        "greetings",
+        "greeting",
+        "good to see you",
+        "its good seeing you",
+        "how are you doing",
+        "how ya doin'",
+        "how ya doin",
+        "how is everything",
+        "how is everything going",
+        "how's everything going",
+        "how is you",
+        "how's you",
+        "how are things",
+        "how're things",
+        "how is it going",
+        "how's life been treating you",
+        "how have you been",
+        "what is up",
+        "what's up",
+        "what is cracking",
+        "what's cracking",
+        "what is good",
+        "what's good",
+        "what is happening",
+        "what's happening",
+        "what is new",
+        "what's new",
+        "what is neww"
+      ],
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Have a Good day"
+      ],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+      "context_set": ""
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old",
+        "how old is Backtester",
+        "what is your age",
+        "how old are you",
+        "age?"
+      ],
+      "responses": ["I am 3 months old!", "3 months young!"],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "Who are you"
+      ],
+      "responses": [
+        "You can call me Backtester.",
+        "I'm your AI trading butler!",
+        "I'm Backtester, aka your AI trading butler."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "strategy",
+      "patterns": [
+        "Id like to trade",
+        "what are the trading strategies",
+        "which trading strategy do you reccommend?",
+        "could i learn something about technical analysis"
+      ],
+      "responses": [
+        "We have four strategies: Buy and Hold, Buy slight dips, Simply Moving Average, Opening Range Breakout",
+        "Check out our trading strategies: Buy and Hold, Buy slight dips, Simply Moving Average, Opening Range Breakout",
+        "You can try our trading strategies: Buy and Hold, Buy slight dips, Simply Moving Average, Opening Range Breakout"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "when are you guys open",
+        "what are your hours",
+        "hours of operation"
+      ],
+      "responses": ["We are open 9:30am-4:30pm Monday-Friday!"],
+      "context_set": ""
+    },
+    {
+      "tag": "Buy the dip",
+      "patterns": [
+        "What does buying the dip mean",
+        "How do you buy the dip",
+        "What is buying the dip",
+        "Does buying the dip work"
+      ],
+      "responses": [
+        "Buying the dip is an investment strategy designed to take advantage of the cyclicality in stock prices over time.",
+        "Buying the dip refers to the act of buying stock (or adding to positions) on a decline that meets certain parameters.",
+        "An investor who was buying 10% dips would have purchased when the market was down 10%."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Opening range breakout",
+      "patterns": [
+        "What is Opening Range Breakouts",
+        "How do you Trade Opening Range Breakouts",
+        "Why do people use opening range breakouts strategy"
+      ],
+      "responses": [
+        "The opening hour of the market is associated with big trading volumes and volatility. This time of the trading session provides many trading opportunities. In this way, traders use the opening range to set the entry points and to predict and forecast the price action for the day.",
+        "When the market opens, you need to see two candles which will help you to measure the size of the range.",
+        "The opening range breakouts determine the further price direction. When the price breaks out of the range, there is a big chance that the price action will continue in the same direction. Therefore opening range trading strategies use the range breakout as entry points on the charts.",
+        "When the stock breaks the opening range upwards, then the price action is likely to continue in a bullish direction",
+        "When the stock breaks the opening range downwards, then the price action is expected to continue in a bearish direction."
+      ],
+      "context_set": ""
+    }
+  ]
+}
